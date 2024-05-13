@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  um-ios
-//
-//  Created by DSV on 2024-05-13.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -13,7 +6,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello Umain!")
         }
         .padding()
     }
