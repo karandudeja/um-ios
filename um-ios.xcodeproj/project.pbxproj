@@ -14,6 +14,9 @@
 		15F67B102BF2177300EC8BC6 /* um_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F67B0F2BF2177300EC8BC6 /* um_iosTests.swift */; };
 		15F67B1A2BF2177300EC8BC6 /* um_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F67B192BF2177300EC8BC6 /* um_iosUITests.swift */; };
 		15F67B1C2BF2177300EC8BC6 /* um_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F67B1B2BF2177300EC8BC6 /* um_iosUITestsLaunchTests.swift */; };
+		15F67B292BF2AB4A00EC8BC6 /* ViewRestaurantCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F67B282BF2AB4A00EC8BC6 /* ViewRestaurantCard.swift */; };
+		15F67B2B2BF2ABAE00EC8BC6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F67B2A2BF2ABAE00EC8BC6 /* Styles.swift */; };
+		15F67B2D2BF2ABF600EC8BC6 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F67B2C2BF2ABF600EC8BC6 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		15F67B152BF2177300EC8BC6 /* um-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "um-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F67B192BF2177300EC8BC6 /* um_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = um_iosUITests.swift; sourceTree = "<group>"; };
 		15F67B1B2BF2177300EC8BC6 /* um_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = um_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15F67B282BF2AB4A00EC8BC6 /* ViewRestaurantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRestaurantCard.swift; sourceTree = "<group>"; };
+		15F67B2A2BF2ABAE00EC8BC6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		15F67B2C2BF2ABF600EC8BC6 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				15F67AFE2BF2177100EC8BC6 /* um_iosApp.swift */,
 				15F67B002BF2177100EC8BC6 /* ContentView.swift */,
+				15F67B282BF2AB4A00EC8BC6 /* ViewRestaurantCard.swift */,
+				15F67B2A2BF2ABAE00EC8BC6 /* Styles.swift */,
+				15F67B2C2BF2ABF600EC8BC6 /* Restaurant.swift */,
 				15F67B022BF2177300EC8BC6 /* Assets.xcassets */,
 				15F67B042BF2177300EC8BC6 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F67B2D2BF2ABF600EC8BC6 /* Restaurant.swift in Sources */,
+				15F67B292BF2AB4A00EC8BC6 /* ViewRestaurantCard.swift in Sources */,
 				15F67B012BF2177100EC8BC6 /* ContentView.swift in Sources */,
 				15F67AFF2BF2177100EC8BC6 /* um_iosApp.swift in Sources */,
+				15F67B2B2BF2ABAE00EC8BC6 /* Styles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
