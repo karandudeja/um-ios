@@ -1,10 +1,3 @@
-//
-//  um_iosUITests.swift
-//  um-iosUITests
-//
-//  Created by DSV on 2024-05-13.
-//
-
 import XCTest
 
 final class um_iosUITests: XCTestCase {

@@ -1,10 +1,3 @@
-//
-//  um_iosTests.swift
-//  um-iosTests
-//
-//  Created by DSV on 2024-05-13.
-//
-
 import XCTest
 @testable import um_ios
 
