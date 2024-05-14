@@ -1,16 +1,60 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: RestaurantsViewModel
+    
     var body: some View {
-        VStack {
-            headerView
+        NavigationStack{
+            VStack {
+                headerView
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 20) {
+                        ViewFilter(iconName: "icon-badge", iconLabel: "Top Rated", isOn: $viewModel.topRatedToggle, style: Styles())
+                            .onChange(of: viewModel.topRatedToggle) {
+                                viewModel.toggleTopRated()
+                            }
+                        
+                        ViewFilter(iconName: "icon-coffee", iconLabel: "Take Out", isOn: $viewModel.takeOutToggle, style: Styles())
+                            .onChange(of: viewModel.takeOutToggle) {
+                                viewModel.toggleTakeOut()
+                            }
+                        
+                        ViewFilter(iconName: "icon-clock", iconLabel: "Fast Delivery", isOn: $viewModel.fastDeliveryToggle, style: Styles())
+                            .onChange(of: viewModel.fastDeliveryToggle) {
+                                viewModel.toggleFastDelivery()
+                            }
+                    }
+                    .padding(.horizontal, 30)
+                    .padding(.bottom, 10)
+                    .padding(.top, 0)
+                }
             
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello Umain!")
+                ScrollView{
+                    ForEach(viewModel.displayedRestaurants){restaurant in
+                        NavigationLink(destination: ViewRestaurantDetails(restaurant: restaurant)) {
+                            ViewRestaurantCard(restaurant: restaurant, style: Styles())
+                                .padding(.horizontal)
+                                .padding(.bottom, 12)
+                        }
+                    }
+                    .padding(.top, 16)
+                }
+                .offset(y: -12.0)
+                
+            }
+            .background(Color(red:248/255, green:248/255, blue:248/255, opacity:1))
+            .ignoresSafeArea()
         }
-        .padding()
+        .onAppear {
+            viewModel.loadRestaurants()
+        }
+        
+        if let error = viewModel.error {
+            Text("Error: \(error.localizedDescription)")
+                .foregroundColor(.red)
+        }
+        
     }
 }
 

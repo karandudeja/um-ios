@@ -35,7 +35,6 @@ struct Restaurant: Codable, Identifiable {
 }
 
 
-
 struct RestaurantOpenCloseStatus: Codable, Identifiable {
     let id: String
     let isOpen: Bool
@@ -75,8 +74,6 @@ struct RestaurantFilter: Codable, Identifiable {
 
 
 
-
-
 /*
 struct Restaurant{
     let restaurantId: String
@@ -86,9 +83,7 @@ struct Restaurant{
     let restaurantImage: String
     let restaurantDeliveryTime: Int
 }
- */
-
-/*
+ 
  let restaurant1 = Restaurant(restaurantId: "one", restaurantName: "Wayne's Smelly Eggs", restaurantRating: 3.6, restaurantFilterIds: ["Take-Out"], restaurantImage: "food-eggs", restaurantDeliveryTime: 30)
  
  let restaurant2 = Restaurant(restaurantId: "two", restaurantName: "Emilias Fancy Food", restaurantRating: 0.4, restaurantFilterIds: ["Take-Out", "Fast Delivery", "Eat-In"], restaurantImage: "food-burger", restaurantDeliveryTime: 1)
