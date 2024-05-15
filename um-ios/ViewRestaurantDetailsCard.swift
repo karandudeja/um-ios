@@ -20,6 +20,7 @@ struct ViewRestaurantDetailsCard: View {
                 HStack{
                     ForEach(Array(restaurant.filters.enumerated()), id: \.element.id) { index, filter in
                         Text(filter.name + (index == restaurant.filters.count - 1 ? "" : " •"))
+                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             .font(.system(size: style.subtitle1size))
                             .foregroundStyle(style.subtitleTextColor)
                     }
