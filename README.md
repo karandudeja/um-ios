@@ -16,3 +16,8 @@
 ## Version details for App
 - Swift 5
 - iOS 17+
+
+## To run the App in Xcode
+- Download or clone this project to your Mac
+- Open project using Xcode, with iOS17 installed in Xcode
+- Press the play button
