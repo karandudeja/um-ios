@@ -3,7 +3,7 @@
 
 <!--![alt text](https://github.com/karandudeja/um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png)-->
 
-<img src="/um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png" width="128"/>
+<img src="um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png" width="300"/>
 
 ## Description
 - Presents a list of restaurants, and relevant informtion about each of them
