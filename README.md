@@ -1,7 +1,7 @@
 # Restaurant App
 - iOS app or for iPhone
 
-<--![alt text](https://github.com/karandudeja/um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png)-->
+<!--![alt text](https://github.com/karandudeja/um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png)-->
 
 <img src="/um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png" width="128"/>
 
