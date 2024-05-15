@@ -67,7 +67,6 @@ struct RestaurantFilter: Codable, Identifiable {
         id = try container.decode(String.self, forKey: .id)
         name = try container.decode(String.self, forKey: .name)
         imageUrl = try container.decode(String.self, forKey: .imageUrl)
-        
     }
 }
 

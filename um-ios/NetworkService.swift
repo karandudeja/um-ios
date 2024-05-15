@@ -37,8 +37,7 @@ class NetworkService {
             filters.append(filter)
         }
         
-        //print("test here .... ", filters)
-        
+        //print("test here --- ", filters)
         return filters
     }
     
@@ -69,13 +68,8 @@ class NetworkService {
                 throw URLError(.badServerResponse)
             }
             
-            //let status = try JSONDecoder().decode(OpenCloseStatus.self, from: data)
             let status = try JSONDecoder().decode(RestaurantOpenCloseStatus.self, from: data)
             return status.isOpen
     }
     
-}
-
-struct OpenCloseStatus: Codable {
-    let isOpen: Bool
 }

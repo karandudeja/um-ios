@@ -1,7 +1,8 @@
 import SwiftUI
 
 struct ViewRestaurantDetails: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
+    @Environment(\.dismiss) private var dismiss
     let restaurant: Restaurant
 
     var body: some View {
@@ -25,7 +26,7 @@ struct ViewRestaurantDetails: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button(action: {
-                    presentationMode.wrappedValue.dismiss()
+                    dismiss()
                 }) {
                     HStack {
                         ZStack(alignment:.center){

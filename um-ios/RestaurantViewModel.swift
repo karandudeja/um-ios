@@ -54,19 +54,19 @@ class RestaurantsViewModel: ObservableObject {
     
     func toggleTopRated() {
         topRatedToggle.toggle()
-        print("Toggle Top Rated !!!!")
+        //print("Toggle Top Rated !!!!")
         funcFiltersAndSort()
     }
 
     func toggleTakeOut() {
         takeOutToggle.toggle()
-        print("Toggle Take Out !!!")
+        //print("Toggle Take Out !!!")
         funcFiltersAndSort()
     }
 
     func toggleFastDelivery() {
         fastDeliveryToggle.toggle()
-        print("Toggle Fast Deliver !!")
+        //print("Toggle Fast Deliver !!")
         funcFiltersAndSort()
     }
     

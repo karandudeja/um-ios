@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ViewRestaurantDetailsCard: View {
+    
     let restaurant: Restaurant
     let style:Styles
     
