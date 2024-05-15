@@ -45,35 +45,6 @@ struct ViewRestaurantDetails: View {
     }
 }
 
-
-
-/*import SwiftUI
-
-struct ViewRestaurantDetails: View {
-    let restaurant: Restaurant
-    
-    var body: some View {
-        VStack{
-            AsyncImage(url: URL(string: restaurant.imageUrl)) { image in
-                    image
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                } placeholder: {
-                    ProgressView()
-                }
-            
-            VStack(alignment: .leading){
-                ViewRestaurantDetailsCard(restaurant:restaurant)
-                    .offset(y:-60.0)
-            }
-            
-            Spacer()
-        }
-        .ignoresSafeArea()
-        .navigationBarBackButtonHidden(true)
-    }
-}*/
-
 /*
  #Preview {
  ViewRestaurantDetails(restaurant: restaurant2)

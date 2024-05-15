@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: RestaurantsViewModel
+    let style:Styles
     
     var body: some View {
         NavigationStack{
@@ -43,7 +44,7 @@ struct ContentView: View {
                 .offset(y: -12.0)
                 
             }
-            .background(Color(red:248/255, green:248/255, blue:248/255, opacity:1))
+            .background(style.backgroundColor)
             .ignoresSafeArea()
         }
         .onAppear {

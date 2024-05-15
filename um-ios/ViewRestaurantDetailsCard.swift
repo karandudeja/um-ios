@@ -17,11 +17,11 @@ struct ViewRestaurantDetailsCard: View {
             
             if !restaurant.filters.isEmpty {
                 HStack{
-                    /*ForEach(Array(restaurant.filters.enumerated()), id: \.element.id) { index, filter in
+                    ForEach(Array(restaurant.filters.enumerated()), id: \.element.id) { index, filter in
                         Text(filter.name + (index == restaurant.filters.count - 1 ? "" : " •"))
                             .font(.system(size: style.subtitle1size))
                             .foregroundStyle(style.subtitleTextColor)
-                    }*/
+                    }
                 }
             }
             

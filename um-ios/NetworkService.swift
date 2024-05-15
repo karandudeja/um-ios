@@ -18,14 +18,12 @@ class NetworkService {
         let wrapper = try JSONDecoder().decode(Wrapper.self, from: data)
         var restaurants = wrapper.restaurants
         
-        /*
         for index in 0..<restaurants.count {
             if(!restaurants[index].filterIds.isEmpty){
                 let filterDetails = try await fetchFiltersForRestaurant(restaurant: &restaurants[index])
                 restaurants[index].filters = filterDetails
-            
+            }
         }
-         */
         
         return restaurants
     }
@@ -58,9 +56,8 @@ class NetworkService {
         
         return try JSONDecoder().decode(RestaurantFilter.self, from: data)
     }
-     
     
-    
+
     func fetchOpenClosedRestaurants(restaurantId: String) async throws -> Bool {
             let urlString = "https://food-delivery.umain.io/api/v1/open/\(restaurantId)"
             guard let url = URL(string: urlString) else {
@@ -82,7 +79,3 @@ class NetworkService {
 struct OpenCloseStatus: Codable {
     let isOpen: Bool
 }
-
-
-
-

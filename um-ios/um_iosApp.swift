@@ -6,7 +6,7 @@ struct um_iosApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(style:Styles())
                 .environmentObject(viewModel)
         }
     }
