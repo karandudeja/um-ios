@@ -4,7 +4,7 @@
 <!--![Screenshot](https://github.com/karandudeja/um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png)-->
 
 <img src="um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png" width="300"/>
-<img src="um-ios/Assets.xcassets/screenshot1.imageset/screenshot2.png" width="300"/>
+<img src="um-ios/Assets.xcassets/screenshot2.imageset/screenshot2.png" width="300"/>
 
 ## Description
 - Presents a list of restaurants, and relevant informtion about each of them
