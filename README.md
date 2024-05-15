@@ -7,7 +7,7 @@
 <img src="um-ios/Assets.xcassets/screenshot2.imageset/screenshot2.png" width="300"/>
 
 ## Description
-- Presents a list of restaurants, and relevant informtion about each of them
+- Presents a list of restaurants, and relevant information about each of them
 - A user can see details of the restaurant, e.g. the various tags, rating, and open/closed status on the restaurant's detail page
 - [Short Video](https://youtube.com/shorts/Mce9GdGY1X0?feature=share)
 
