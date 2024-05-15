@@ -4,10 +4,12 @@
 <!--![Screenshot](https://github.com/karandudeja/um-ios/blob/main/um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png)-->
 
 <img src="um-ios/Assets.xcassets/screenshot1.imageset/screenshot1.png" width="300"/>
+<img src="um-ios/Assets.xcassets/screenshot1.imageset/screenshot2.png" width="300"/>
 
 ## Description
 - Presents a list of restaurants, and relevant informtion about each of them
 - A user can see details of the restaurant, e.g. the various tags, rating, and open/closed status on the restaurant's detail page
+- [Short Video](https://youtube.com/shorts/Mce9GdGY1X0?feature=share)
 
 ## Features
 - View a vertical list of restaurant, and each list element is a card presenting restaurant info.
